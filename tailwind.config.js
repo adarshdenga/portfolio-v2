@@ -11,6 +11,9 @@ export default {
         ...colors,
       },
     },
+    fontFamily: {
+      barlow: ['Barlow', 'sans-serif']
+    },
   },
   plugins: [],
 }

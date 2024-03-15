@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./components/Header";
+import Menu from "./components/Menu";
 
 export default function App() {
   return (
-    <>
-      <Header />
-    </>
+    <div className="flex w-screen h-screen justify-center items-center">
+      <Menu></Menu>
+    </div>
   );
 }
