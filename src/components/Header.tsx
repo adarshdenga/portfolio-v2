@@ -4,6 +4,7 @@ export default function Header() {
       <div className="p-4 aspect-square bg-rose-300 rounded-full">AD</div>
       <div className="p-4 w-full bg-rose-300 rounded-full">About me / Work</div>
       <div className="p-4 w-2/5 bg-rose-300 rounded-full">Socials</div>
+      <div></div>
     </div>
   );
 }
