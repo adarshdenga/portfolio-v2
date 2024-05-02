@@ -3,5 +3,35 @@
 @tailwind utilities;
 
 body {
-    @apply bg-black;
+  @apply bg-black;
+}
+
+.explode-container:hover span:nth-child(1) {
+  transform: translate(-400px, -400px) rotate(-30deg) scale(9);
+  transition: transform 600ms ease;
+}
+
+.explode-container:hover span:nth-child(2) {
+  transform: translate(-600px, 400px) rotate(-60deg) scale(7);
+  transition: transform 600ms ease;
+}
+
+.explode-container:hover span:nth-child(3) {
+  transform: translate(-200px, 150px) rotate(15deg) scale(5);
+  transition: transform 600ms ease;
+}
+
+.explode-container:hover span:nth-child(4) {
+  transform: translate(300px, -400px) rotate(50deg) scale(7);
+  transition: transform 600ms ease;
+}
+
+.explode-container:hover span:nth-child(5) {
+  transform: translate(600px, 400px) rotate(50deg) scale(8);
+  transition: transform 600ms ease;
+}
+
+.explode-container:hover span:nth-child(6) {
+  transform: translate(300px) rotate(-15deg) scale(6);
+  transition: transform 600ms ease;
 }
